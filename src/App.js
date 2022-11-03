@@ -1,10 +1,10 @@
-
+import UserList from './Components/UserList';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div>sol</div>
+      <UserList></UserList>
       <div>sağ</div>
     </div>
   );
