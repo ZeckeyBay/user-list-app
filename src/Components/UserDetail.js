@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import axios from "axios";
+import axios from "axios"; //We could use fetch
 
 function UserDetail({activeUserId}) {
     const [user,setUser] = useState(null);
